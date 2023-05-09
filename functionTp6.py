@@ -24,6 +24,18 @@ def note(frequence,amplitude,duree):
     '''
     return y1
 
+def superposeSon(son1,son2):
+    l1 = np.size(son1)
+    l2 = np.size(son2)
+    z = np.zeros(np.abs(l2-l1))
+    if l1>l2:
+        son2 = np.concatenate((son2,z))
+    else:
+        son1 = np.concatenate((son1,z))
+    son = son1 + son2
+    return son
+
+        
 def assemblerLesNotes(signal):
     '''
     Cette fonction permet d'assembler les notes les unes derrières les autres.
