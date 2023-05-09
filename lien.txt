@@ -1,1 +1,3 @@
 https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/pierreghesqui/TPSon/main/TP-Son.ipynb&module=https://raw.githubusercontent.com/pierreghesqui/TPSon/main/functionTp6.py
+
+lien court :https://tinyurl.com/sntson
